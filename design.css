@@ -1,13 +1,21 @@
+img{
+  height: 120px;
+  width: 90px;
+  border-radius: 12px;
+
+}
 hr{
   /* background-color:black; */
   /* border-style: dashed; */
   border-top: dotted;
   border-bottom: hidden;
-  width: 30%;
+  width: 50%;
   border-color: grey;
 }
 .heading1{
   position: sticky;
+  position:sticky margin-left: 500px;
+  margin-left: 10px;
   position: -webkit-sticky;
   top: 0px;
 }
@@ -28,8 +36,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-a
+h5
 {
   border-bottom: hidden;
   color: #b1b493;
@@ -37,13 +44,13 @@ a
 
 }
 
-.image{
-  background-color: grey;
+.photo{
+  /* background-color: grey; */
 }
 a{
   text-decoration:none;
   color: #b1b493;
 }
 a:hover{
-  color: #7d5e2a;
+  color: #ff9234;
 }
